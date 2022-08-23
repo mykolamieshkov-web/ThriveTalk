@@ -18,8 +18,10 @@ html {
 .header {
 width: 100%;
 height: 150px;
+max-width: fit-content;
 border: 4px solid red;
 display: flex;
+gap: 3px;
 justify-content: space-between;
 padding-top: 30px;
 }
@@ -30,7 +32,7 @@ padding-top: 30px;
    /* identical to box height */
    letter-spacing: -0.035em;
    color: #62D0DF;
-   margin-left: 20px;
+   margin-left: 5px;
 }
 .header a {
    font-family: 'Larsseit';
@@ -40,8 +42,7 @@ padding-top: 30px;
    color: #22356F;  
    height: 20px;
    text-align: center;
-   margin: 0;
-   padding: 4px;
+  gap: 0.5px;
 }
 .header a:hover {
    font-family: 'Larsseit';
@@ -57,7 +58,7 @@ padding-top: 30px;
    border-radius: 50px; 
    width: 150px;
    height: 50px;
-   margin-right: 50px;
+   margin-right: 150px;
    max-width: 100%;
 
 }
