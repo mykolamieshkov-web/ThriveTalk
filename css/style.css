@@ -19,7 +19,7 @@ html {
 width: 100%;
 height: 150px;
 max-width: fit-content;
-border: 4px solid red;
+
 display: flex;
 gap: 3px;
 justify-content: space-between;
@@ -71,4 +71,61 @@ padding-top: 30px;
    color: #FFFFFF;
 
 }
+.help_section {
+   width: 100%;
+   height: 600px;
+}
+
+.helpsection_logo h1 {
+
+   font-family: 'Larsseit';
+   font-size: 22px;
+   line-height: 27px;
+   letter-spacing: -0.035em;
+   margin-left: 20px;
+   color: #62D0DF;
+}
+.helpsection_title h1{
+   font-family: 'Larsseit';
+   font-size: 20px;
+   line-height: 53px;
+   letter-spacing: -0.035em;
+   float: left;
+   text-align: center;
+   
+   color: #22356F;
+}
+img {
+   width: 50%;
+   height: 50%;
+   max-width: 100%;
+   margin-right: 20px;
+}
+.helpsection_subtitle p {
+   font-family: 'Larsseit';
+   font-size: 16px;
+   line-height: 42px;
+   float: left;
+   text-align: center;
+   color: #22356F;
+}
+.helpingsection_button button {
+width: 150px;
+height: 50px;
+background: #F9B640;
+color: #F4F9E2;
+text-align: center;
+border: none;
+}
+.helpingsection_button p {
+   font-family: 'Larsseit';
+   font-size: 16px;
+   line-height: 23px;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.1em;
+   color: #FAB63E;
+}
+
+ 
 
